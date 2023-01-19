@@ -173,8 +173,8 @@ extension UIScrollView {
         let state = self.infiniteScrollState
         let activityIndicator = self.infiniteScrollIndicatorView
         self.positionInfiniteScrollIndicator(with: self.contentSize)
-        activityIndicator?.isHidden = false
-        activityIndicator?.startAnimating()
+//        activityIndicator?.isHidden = false
+//        activityIndicator?.startAnimating()
         let indicatorInset = self.infiniteIndicatorRowSize
         var contentInset = self.contentInset
         if state?.direction == .vertical {
